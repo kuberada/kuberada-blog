@@ -4,10 +4,10 @@ html_meta:
   "description lang=en": "About Kuberada. Hands-on Kubernetes, Devops, python blog"
   "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, ephemeral-storage, emptydir"
   "property=og:locale": "en_US"
-  "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral2.png"
+  "property=og:image": "https://raw.githubusercontent.com/kuberada/kuberada-blog/main/og/ephemeral2.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral2.png" alt="ephemeral" class="bg-primary">
+<img src="https://raw.githubusercontent.com/kuberada/kuberada-blog/main/og/ephemeral2.png" alt="ephemeral" class="bg-primary">
 
 (ephemeral)=
 # 🧸 Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes
@@ -57,7 +57,7 @@ If you dont specify a medium for emptydir, it is mounted to the disk by default 
 
 ![](assets/20240104143059.png)
 
-Let's try mounting emptyDir volume to the RAM adding a medium. You can find the lab resources on the [kuberada-labs repository](https://github.com/colossus06/kuberada-labs/tree/main/storage-ephemeral).
+Let's try mounting emptyDir volume to the RAM adding a medium. You can find the lab resources on the [kuberada-labs repository](https://github.com/kuberada/kuberada-labs/tree/main/storage-ephemeral).
 
 
 ![](assets/20240104143747.png)
@@ -91,7 +91,7 @@ Upon successful implementation, the ct100 pod should serve as a producer by crea
 
 
 ```{tip}
-  The solution for this task can be found in the [blog's repository](https://github.com/colossus06/kuberada-labs/tree/main/storage-ephemeral). Clone the repo and change directory into storage-ephemeral. Explore the repository to review the codes and files associated with it if you're encountering this task for the first or second time. Remember to attempt solving it without referring to the codes in the repository afterward.
+  The solution for this task can be found in the [blog's repository](https://github.com/kuberada/kuberada-labs/tree/main/storage-ephemeral). Clone the repo and change directory into storage-ephemeral. Explore the repository to review the codes and files associated with it if you're encountering this task for the first or second time. Remember to attempt solving it without referring to the codes in the repository afterward.
 ```
 
 
