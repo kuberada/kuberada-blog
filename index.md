@@ -5,7 +5,9 @@
 
 # Kuberada Blog Hands-on Learning!
 
-Kuberada serves as a collaborative blog platform where you can explore and engage in hands-on activities related to DevOps, Kubernetes, Linux, and scripting. The blog content is specifically tailored for CKAD and python enthusiasts. Make it a habit to frequent the blog to ensure you don't overlook high-quality, hands-on articles in your area of interest.
+Kuberada serves as a collaborative blog platform where you can explore and engage in hands-on activities related to DevOps, Kubernetes, Linux, and scripting. 
+
+Make it a habit to frequently visit the blog to ensure you don't overlook high-quality, hands-on articles in your area of interest.
 
 ### what is k8s?
 
@@ -18,10 +20,6 @@ Kuberada serves as a collaborative blog platform where you can explore and engag
 ```{include} blogs/snippets/what-is-devops.md
 ```
 
-### python and devops
-
-```{include} blogs/snippets/python-and-devops.md
-```
 
 </br>
 
@@ -53,14 +51,21 @@ blogs/devops/devops-collection
 </br>
 
 
+```{toctree}
+:caption: About
+:hidden:
+about.md
+
+```
+
 #### 🚧 **Under Construction** 🚧
 
 We're working hard to bring you an even better blogging experience! Our site is currently undergoing maintenance, and some features may be temporarily unavailable.
 
-Estimated completion: [After clearing CKAD :)].
+Estimated completion: After clearing CKAD :)...
 
 Follow us for updates!
 
-```{admonition} This is a title
+```{admonition} warning ⚠
   This blog is under construction
 ```
