@@ -3,11 +3,20 @@
 % You can adapt this file completely to your liking, but it should at least
 % contain the root `toctree` directive.
 
-# Kuberada Blog Hands-on Learning!
+# Kuberada Hands-on Learning!
 
 Kuberada serves as a collaborative blog platform where you can explore and engage in hands-on activities related to DevOps, Kubernetes, Linux, and scripting. 
 
 Make it a habit to frequently visit the blog to ensure you don't overlook high-quality, hands-on articles in your area of interest.
+
+
+## Kubernetes and DevOps Labs
+
+We understand the importance of practical experience in mastering the intricacies of modern technologies. That's why we've curated a series of labs, accompanied by detailed write-ups and code repositories, to guide you through real-world scenarios and challenges we present in the articles.
+
+**Navigate to the labs here** 👇
+
+<a class="btn btn-success btn-lg" href="https://github.com/kuberada/kuberada-labs" role="button">kuberada labs</a>
 
 ### what is k8s?
 
@@ -33,16 +42,18 @@ Make it a habit to frequently visit the blog to ensure you don't overlook high-q
 
 
 
+
 ```{toctree}
 :caption: Get Started
 :hidden:
 blogs/get-started/k8s
 blogs/get-started/devops
+blogs/get-started/kuberada.md
+
 ```
 
-
 ```{toctree}
-:caption: Blogs
+:caption: Blogs by Domains
 :hidden:
 blogs/ckad/ckad-collection
 blogs/devops/devops-collection
@@ -50,6 +61,14 @@ blogs/devops/devops-collection
 
 </br>
 
+
+```{toctree}
+:caption: Latest Blogs
+:hidden:
+blogs/ckad/ephemeral-storage-handson/ephemeral-storage-handson.md
+```
+
+</br>
 
 ```{toctree}
 :caption: About

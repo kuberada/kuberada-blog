@@ -46,6 +46,21 @@ Kubernetes offers various ephemeral volumes and how they are ideal for:
 
 Now that we have taken a look at the various ephemeral storage use cases and types, let's get some hands-on skills that can help us in the Kubernetes exams.
 
+<br>
+
+**a quick note on solutions**
+
+Before starting off with the hands-on section, remember that you can find the manifest files on the github repo of the blog.
+
+
+```{tip}
+  The solution for this task can be found in the [blog's repository](https://github.com/kuberada/kuberada-labs/tree/main/storage-ephemeral). Clone the repo and change directory into storage-ephemeral. Explore the repository to review the codes and files associated with it if you're encountering this task for the first or second time. Remember to attempt solving it without referring to the codes in the repository afterward.
+```
+
+**Navigate to the labs here** 👇
+
+<a class="btn btn-success btn-lg" href="https://github.com/kuberada/kuberada-labs" role="button">kuberada labs</a>
+
 <!-- ## [Hands-on Part]{.bg-warning} -->
 ## Hands-on With Ephemeral Storage in Kubernetes
 
@@ -83,16 +98,6 @@ You are tasked with implementing a shared storage solution named shared-vol in a
 **Expected Outcome**
 
 Upon successful implementation, the ct100 pod should serve as a producer by creating an index.html file, and the cta150 pod should serve as a consumer by displaying the content of the index.html file from the shared volume. This scenario demonstrates the use of shared ephemeral storage to enable communication and data exchange between containers within a Kubernetes pod.
-
-
-
-
-**a quick note on solutions**
-
-
-```{tip}
-  The solution for this task can be found in the [blog's repository](https://github.com/kuberada/kuberada-labs/tree/main/storage-ephemeral). Clone the repo and change directory into storage-ephemeral. Explore the repository to review the codes and files associated with it if you're encountering this task for the first or second time. Remember to attempt solving it without referring to the codes in the repository afterward.
-```
 
 
 ![](assets/20240103182814.png)
@@ -213,9 +218,41 @@ Can you list the contents on the directory? Yes!
 
 ![](assets/20240103170110.png)
 
-
 ## Conclusion
 
 Ephemeral storage provides dynamic solutions to challenges like data persistence, collaboration, and configuration management within containerized environments.
 
 In your Kubernetes journey, these hands-on experiences and insights serve as valuable tools. Remember, the ability to navigate ephemeral storage nuances not only prepares you for exams but also equips you to tackle real-world challenges in deploying scalable, resilient, and efficient applications in Kubernetes.
+
+<br>
+
+**Did you learn something today?**
+
+
+
+<div style="text-align: center;">
+  <h2>Share this article on socials 🐶 👍</h2>
+</div>
+
+<br>
+
+<br>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://kuberada.devtechops.dev/blogs/ckad/ephemeral-storage-handson/ephemeral-storage-handson.html&title=Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes&summary=Ephemeral storage refers to temporary, short-lived storage that exists only for the duration of a specific process or container's lifecycle. In containerized environments, such as Kubernetes, on-disk files inside the containers are considered ephemeral. You can create and modify these files but can't preserve when the container is deleted or removed from the node for a reason.&source=YourarticleSource" target="_blank">
+  <img class="icon" src="https://raw.githubusercontent.com/kuberada/kuberada-blog/main/og/socials/linkedin.png" alt="LinkedIn Icon" style="width: 60px; height: 60px; class="img-fluid"">
+  <!-- <span class="text">Share on Linkedin</span> -->
+</a>
+    </div>
+    <div class="col-auto">
+      <a href> <img class="icon" src="https://raw.githubusercontent.com/kuberada/kuberada-blog/main/og/socials/x.jpg" alt="x Icon" style="width: 60px; height: 60px; class="img-fluid""></a>
+    </div>
+    <div class="col-auto">
+      <a href> <img class="icon" src="https://raw.githubusercontent.com/kuberada/kuberada-blog/main/og/socials/ig.png" alt="x Icon" style="width: 60px; height: 60px; class="img-fluid""></a>    
+    </div>
+  </div>
+</div>
+
+<br>
