@@ -14,9 +14,6 @@ Make it a habit to frequently visit the blog to ensure you don't overlook high-q
 
 We understand the importance of practical experience in mastering the intricacies of modern technologies. That's why we've curated a series of labs, accompanied by detailed write-ups and code repositories, to guide you through real-world scenarios and challenges we present in the articles.
 
-**Navigate to the labs here** 👇
-
-<a class="btn btn-success btn-lg" href="https://github.com/kuberada/kuberada-labs" role="button">kuberada labs</a>
 
 ### what is k8s?
 
@@ -48,7 +45,7 @@ We understand the importance of practical experience in mastering the intricacie
 :hidden:
 blogs/get-started/k8s
 blogs/get-started/devops
-blogs/get-started/kuberada.md
+blogs/get-started/kuberada
 
 ```
 
@@ -57,6 +54,14 @@ blogs/get-started/kuberada.md
 :hidden:
 blogs/ckad/ckad-collection
 blogs/devops/devops-collection
+```
+
+</br>
+
+```{toctree}
+:caption: Labs
+:hidden:
+blogs/get-started/labs
 ```
 
 </br>
