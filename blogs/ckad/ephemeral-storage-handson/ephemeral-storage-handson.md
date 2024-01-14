@@ -9,6 +9,8 @@ html_meta:
 
 <img src="https://raw.githubusercontent.com/kuberada/kuberada-blog/main/og/ephemeral2.png" alt="ephemeral" class="bg-primary">
 
+**Author:** [Gulcan Topcu](https://github.com/colossus06)-*Devops Engineer*
+
 (ephemeral)=
 # 🧸 Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes
 

@@ -15,9 +15,7 @@ We're a DevOps duo passionate about automation, scripting, and addressing real-w
 
 - **DevSecOps Champions:** Embedding security into the core of our DevOps practices.
 - **Kubernetes Navigators:** Sailing through container orchestration challenges with Kubernetes.
-.
 
-Happy Coding! 🚀📝
 
 Join us on this journey of continuous learning.
 
